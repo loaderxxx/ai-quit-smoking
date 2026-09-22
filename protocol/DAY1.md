@@ -1,73 +1,108 @@
-# Day 1 — Quit Smoking Protocol
+# DAY 1 — Протокол отказа от курения
 
-**Target:** 0 cigarettes on the chosen quit date.
+**Цель:** 0 сигарет в выбранный день отказа.
 
-## Before the first craving
+## 1. До первой тяги
 
-Prepare:
+Подготовить:
 
-- remove cigarettes, lighters, and ashtrays where practical;
-- identify the top three smoking triggers;
-- decide what replaces each trigger;
-- make professional cessation support available when appropriate;
-- keep the AI support channel easy to access.
+- убрать сигареты, зажигалки и пепельницы из лёгкого доступа;
+- определить три главных триггера;
+- заранее назначить замену для каждого триггера;
+- при необходимости подключить врача, фармацевта или официальную службу помощи;
+- сделать AI-канал поддержки доступным.
 
-## When a craving appears
+## 2. Когда возникает тяга
 
-Use the following loop:
+### Шаг 1 — СТОП
 
-### 1. STOP
-Do not light the cigarette while making the decision.
+Не закуривать в момент автоматического импульса.
 
-### 2. NAME
-What triggered this craving?
+### Шаг 2 — НАЗВАТЬ
 
-Examples:
-- coffee;
-- stress;
-- boredom;
-- social situation;
-- after food;
-- work break;
-- alcohol;
-- habitual location.
+Определить, что сейчас запустило тягу.
 
-### 3. CHANGE CONTEXT
-Stand up, move to another place, walk briefly, drink water, or change the routine.
+Примеры:
 
-### 4. CONTACT
-Use the AI assistant to guide the next few minutes.
+- кофе;
+- стресс;
+- скука;
+- социальная ситуация;
+- после еды;
+- рабочий перерыв;
+- алкоголь;
+- привычное место.
 
-Suggested user message:
+### Шаг 3 — ИЗМЕНИТЬ КОНТЕКСТ
 
-> I want to smoke. Trigger: ___.
+Встать, перейти в другое место, немного пройтись, выпить воды или изменить последовательность привычных действий.
 
-The assistant should respond with a short, concrete action sequence rather than a lecture.
+### Шаг 4 — СВЯЗАТЬСЯ
 
-### 5. RECORD
-Capture:
+Написать AI-помощнику короткое сообщение:
 
-- trigger;
-- intensity;
-- intervention;
-- result.
+> Хочу курить. Триггер: ___.
 
-## If a lapse happens
+Ответ должен быть коротким и практичным, а не лекцией.
 
-Avoid an all-or-nothing interpretation.
+### Шаг 5 — ЗАПИСАТЬ
 
-Record:
+Фиксировать:
 
-- what happened immediately before the cigarette;
-- where it happened;
-- who was present;
-- what emotion or thought was present;
-- what intervention could have interrupted the chain.
+- триггер;
+- интенсивность;
+- что было сделано;
+- результат.
 
-Then resume the plan.
+## 3. Если произошёл срыв
 
-## Clinical boundary
+Один эпизод не должен автоматически превращаться в отказ от всей попытки.
 
-If the person has significant symptoms, medication questions, or relevant medical risks, the assistant should move from coaching to appropriate professional support.
+Зафиксировать:
 
-This protocol is a product design artifact, not a medical prescription.
+- что произошло непосредственно перед сигаретой;
+- место;
+- социальный контекст;
+- эмоцию или мысль;
+- какой шаг мог прервать цепочку.
+
+После фиксации вернуться к плану.
+
+## 4. Фармакологическая поддержка
+
+Если человек рассматривает НЗТ, варениклин, цитизиниклин/цитизин, бупропион или никотиновые электронные сигареты, выбор должен учитывать возраст, заболевания, лекарства, противопоказания, побочные эффекты и местную доступность.
+
+AI не назначает лечение и не заменяет врача.
+
+## 5. Что измерять в Day 1
+
+Минимальный журнал:
+
+- число сигарет;
+- число выраженных тяг;
+- интенсивность тяг;
+- триггер;
+- применённая стратегия;
+- результат;
+- срыв/нет;
+- комментарий.
+
+## 6. Вечерний review
+
+В конце дня:
+
+**RESULT → WHAT WORKED → WHAT FAILED → TRIGGER MAP → CHANGE FOR TOMORROW**
+
+Главный вопрос:
+
+> Что мы узнали сегодня такого, что сделает следующий день легче?
+
+## 7. Принцип
+
+Мы не строим программу вокруг силы воли как единственного ресурса.
+
+Мы строим систему, которая:
+
+**предвидит триггер → уменьшает автоматизм → поддерживает действие → фиксирует результат → учится.**
+
+Это рабочая гипотеза программы, а не доказанное свойство AI.
