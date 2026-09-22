@@ -1,47 +1,66 @@
-# AI Safety and Scope
+# AI-безопасность и область применения
 
-## Principle
+## Принцип
 
-The AI should support adherence to evidence-based cessation care without pretending to be a clinician.
+AI должен помогать человеку применять доказательные методы отказа от курения, не выдавая себя за врача и не создавая ложной медицинской уверенности.
 
-## The assistant may
+## AI может
 
-- explain established cessation methods;
-- help identify triggers;
-- provide structured coping prompts;
-- track user-reported progress;
-- help prepare questions for a clinician;
-- encourage appropriate medical evaluation;
-- support relapse prevention.
+- объяснять подтверждённые методы отказа;
+- помогать определить триггеры;
+- давать короткие поведенческие подсказки;
+- вести пользовательский журнал;
+- помогать подготовиться к разговору с врачом;
+- поддерживать профилактику срыва;
+- систематизировать исследовательские данные;
+- помогать сравнивать доказательства.
 
-## The assistant must not
+## AI не должен
 
-- diagnose lung disease;
-- tell a user that symptoms are harmless;
-- prescribe or adjust medication without appropriate clinical context;
-- invent medical evidence;
-- fabricate success rates;
-- hide uncertainty;
-- expose private user data;
-- claim that AI support alone is clinically proven.
+- диагностировать заболевание лёгких;
+- объявлять симптомы безопасными без оснований;
+- самостоятельно назначать лекарства;
+- придумывать дозировки;
+- фабриковать источники;
+- скрывать неопределённость;
+- выдавать экспериментальный механизм за клинически доказанный;
+- публиковать чувствительные пользовательские данные без согласованной публичности.
 
-## Escalation
+## Эскалация
 
-Escalate toward medical care when the user reports concerning symptoms, medication safety questions, or situations outside the evidence and scope of the program.
+При тревожных симптомах, вопросах безопасности лекарств или ситуации вне области надёжных доказательств приоритет получает профессиональная медицинская помощь.
 
-## Public/private boundary
+## Публичная исследовательская роль
 
-The public repository contains:
+AI может автоматически:
 
-- general methodology;
-- sanitized protocols;
-- public evidence;
-- experiments intended for open discussion.
+**OBSERVE → EXTRACT → CLASSIFY → RESEARCH → SYNTHESIZE → PUBLISH → VERIFY → UPDATE**
 
-The public repository does not contain:
+Но автоматизация публикации не отменяет проверку:
 
-- private system prompts;
-- internal orchestration;
-- secrets or credentials;
-- user-identifiable health records;
-- proprietary implementation details that are intentionally kept private.
+- факта;
+- источника;
+- приватности;
+- медицинской безопасности;
+- соответствия публичному контуру.
+
+## Public / Private
+
+Публично:
+
+- исследования;
+- источники;
+- обезличенные результаты;
+- версии метода;
+- эксперименты;
+- публичные выводы;
+- ошибки и исправления.
+
+Закрыто:
+
+- системные промпты;
+- внутренняя orchestration;
+- credentials;
+- идентифицирующие медицинские данные;
+- proprietary implementation;
+- непубличные коммерческие и юридические материалы.
