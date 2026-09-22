@@ -1,119 +1,176 @@
-# Program Model
+# Модель программы — AI Quit Smoking
 
-## 1. Goal
+## 1. Цель
 
-Help a person stop smoking by reducing friction between the intention to quit and the actions required to remain smoke-free.
+Создать практическую систему, которая помогает человеку перейти от намерения «хочу бросить» к устойчивому отказу от курения, используя доказательные методы и поддержку в реальном времени.
 
-The program is designed around a simple principle:
+Главная продуктовая гипотеза:
 
-> **Do not fight the whole addiction at once. Win the next craving, then repeat.**
+> **Человеку не обязательно каждый раз заново принимать большое решение «бросить навсегда». Ему нужна система, которая помогает правильно пройти следующую тягу, следующую ситуацию и следующий день.**
 
-This is a product hypothesis, not a clinical claim.
+Это гипотеза продукта, а не клинически доказанное утверждение об эффективности именно нашей AI-системы.
 
-## 2. User journey
+## 2. Публичный жизненный цикл
 
-### Phase A — Baseline
+### Шаг A — исследование
 
-Collect only information needed to personalize support:
+Сначала разбираем, какие методы действительно имеют доказательства.
 
-- cigarettes per day;
-- time from waking to first cigarette;
-- smoking history;
-- previous quit attempts;
-- strongest triggers;
-- routines associated with smoking;
-- current medicines and relevant medical context;
-- preferred quit strategy.
+### Шаг B — baseline
 
-### Phase B — Quit setup
+Собираем минимальные данные, необходимые для персонализации:
 
-- define a quit date;
-- remove or reduce access to cigarettes and smoking cues;
-- prepare replacements for common routines;
-- prepare professional support when appropriate;
-- decide how cravings will be handled before the first craving occurs.
+- сигареты в сутки;
+- время до первой сигареты после пробуждения;
+- длительность курения;
+- предыдущие попытки;
+- причины срывов;
+- типичные триггеры;
+- кофе, алкоголь, социальные и рабочие паттерны;
+- релевантные лекарства и медицинский контекст;
+- предпочтения человека.
 
-### Phase C — Real-time craving support
+### Шаг C — старт
 
-When a craving appears:
+- определить дату отказа;
+- подготовить среду;
+- заранее определить реакции на основные триггеры;
+- подготовить внешнюю поддержку;
+- определить способ работы с тягой.
 
-1. pause;
-2. identify the trigger;
-3. delay the automatic action;
-4. change context;
-5. use a prepared coping action;
-6. reassess after a short interval;
-7. record the outcome.
+### Шаг D — реальная тяга
 
-The AI assistant should keep the interaction short and action-oriented.
+При возникновении тяги:
 
-### Phase D — Relapse prevention
+1. остановить автоматическое действие;
+2. назвать триггер;
+3. изменить контекст;
+4. применить заранее выбранную стратегию;
+5. при необходимости обратиться к AI;
+6. повторно оценить ситуацию;
+7. записать результат.
 
-The program treats a lapse as data, not as proof that the entire attempt has failed.
+### Шаг E — анализ
 
-After a lapse:
+Каждая заметная тяга — потенциальная единица данных:
 
-- record what happened;
-- identify the trigger chain;
-- remove the immediate failure point;
-- restart the plan;
-- update the prevention strategy.
+**TRIGGER → RESPONSE → OUTCOME → LESSON**
 
-## 3. Personalization
+### Шаг F — адаптация
 
-The program should adapt to:
+Метод меняется только на основании:
 
-- nicotine dependence;
-- time of day;
-- common locations;
-- social triggers;
-- alcohol and caffeine associations;
-- previous failed attempts;
-- preferred communication style;
-- effectiveness of coping strategies.
+- новых данных;
+- новых источников;
+- повторяющихся паттернов;
+- экспериментальных результатов;
+- медицинских ограничений.
 
-## 4. Clinical options
+## 3. Какие методы рассматривает программа
 
-The AI should explain established options without independently prescribing treatment.
+### Поведенческая поддержка
 
-Potential options include:
+Индивидуальное консультирование, групповая поддержка, телефонные форматы и цифровая поддержка имеют доказательства пользы. Не всё внутри этой категории одинаково хорошо исследовано.
 
-- nicotine replacement therapy;
-- varenicline;
-- bupropion;
-- cytisinicline/cytisine;
-- behavioral support;
-- combinations of compatible behavioral and pharmacological approaches.
+### Никотинзаместительная терапия
 
-Selection must consider age, health history, medicines, contraindications, adverse effects, availability, and patient preference.
+Пластыри, жвачки, леденцы и другие формы НЗТ уменьшают выраженность никотиновой абстиненции. Комбинация длительной и короткой форм НЗТ имеет более сильную доказательную базу, чем одиночная форма НЗТ.
 
-## 5. Measurement
+### Варениклин
 
-Primary metrics:
+Один из наиболее изученных фармакологических вариантов; в Кокрейновском обзоре 2023 года он превосходил плацебо, бупропион и одну форму НЗТ по вероятности длительного отказа.
 
-- cigarettes/day;
-- smoke-free days;
-- time to first cigarette;
-- craving frequency;
-- craving intensity;
-- lapse count;
-- relapse count;
-- adherence to the chosen plan.
+### Цитизиниклин / цитизин
 
-Secondary metrics:
+Эффективность подтверждается систематическими обзорами; в NICE вариант был добавлен/обновлён в 2025 году.
 
-- trigger frequency;
-- confidence;
-- sleep;
-- mood;
-- perceived control;
-- self-reported respiratory symptoms.
+### Бупропион
 
-## 6. Research questions
+Доказанный фармакологический вариант, однако сравнительные данные часто показывают меньшую эффективность, чем у варениклина или некоторых комбинаций НЗТ.
 
-- Does just-in-time AI support reduce the probability of acting on a craving?
-- Which craving interventions work best for which triggers?
-- Does personalization increase adherence?
-- How should AI escalate from coaching to professional support?
-- Which parts of cessation support should remain deterministic and evidence constrained?
-- What is the safest way to use conversational AI without creating false medical authority?
+### Никотиновые электронные сигареты
+
+Последнее доступное на 2026-09-23 обновление Cochrane включает доказательства до 1 января 2026 года. Никотиновые электронные сигареты в исследованиях повышали вероятность длительного отказа по сравнению с НЗТ, но вопросы долгосрочной безопасности и переносимости требуют продолжения исследований.
+
+### Постепенное снижение
+
+Постепенное сокращение числа сигарет до полного отказа может быть рабочим вариантом. Кокрейновский обзор не обнаружил убедительного общего преимущества постепенного и резкого подхода; поэтому стратегия может учитывать предпочтения человека и использование поддержки.
+
+### Мобильные сообщения и цифровая поддержка
+
+Кокрейновский обзор текстовых программ показал повышение показателей отказа при сравнении с минимальной поддержкой или как дополнения к другой помощи. Более старые данные по приложениям были менее определёнными.
+
+### Финансовые стимулы
+
+Кокрейновское обновление 2025 года обнаружило высокую определённость доказательств того, что финансовые стимулы повышают вероятность отказа от курения в смешанных популяциях.
+
+### Группы и самопомощь
+
+Групповая поддержка лучше простой самопомощи в части исследований; печатная самопомощь имеет небольшой эффект по сравнению с отсутствием помощи, но не обязательно добавляет эффект к более интенсивной поддержке.
+
+### Осознанность, гипнотерапия и другие методы
+
+Для части таких методов доказательства остаются неопределёнными или низкой уверенности. Они не должны автоматически становиться базовым компонентом программы только потому, что популярны.
+
+## 4. Роль AI
+
+AI может быть:
+
+- интерфейсом поддержки;
+- персонализатором;
+- журналом;
+- инструментом анализа триггеров;
+- средством подготовки к разговору с врачом;
+- механизмом адаптации программы;
+- исследовательским оператором.
+
+AI не должен:
+
+- диагностировать;
+- назначать лекарственные схемы;
+- скрывать неопределённость;
+- представлять эксперимент как клинически доказанный метод.
+
+## 5. Основные метрики
+
+### Первичные
+
+- число сигарет в день;
+- дни без сигарет;
+- число тяг;
+- интенсивность тяг;
+- число срывов;
+- продолжительность до возврата к курению;
+- приверженность выбранной стратегии.
+
+### Вторичные
+
+- частота триггеров;
+- качество сна;
+- настроение;
+- субъективный контроль;
+- уверенность;
+- переносимость выбранных средств;
+- респираторные симптомы.
+
+## 6. Исследовательские вопросы
+
+- Помогает ли AI-поддержка именно в момент тяги?
+- Снижает ли она вероятность немедленного действия?
+- Какие типы триггеров требуют разных интервенций?
+- Какие комбинации поведенческой и фармакологической поддержки оказываются наиболее удобными для разных профилей?
+- Как автоматизировать сопровождение без ложного медицинского авторитета?
+- Как определить момент, когда AI должен перестать «коучить» и направить человека к врачу?
+- Можно ли превратить индивидуальный опыт в воспроизводимый публичный протокол?
+
+## 7. Критерий готовности версии
+
+Версия метода готова к повышению статуса, когда:
+
+- основные утверждения подтверждены источниками;
+- ограничения описаны;
+- протокол воспроизводим;
+- реальные наблюдения собраны;
+- эксперименты имеют измеримые метрики;
+- результаты проверены;
+- версия зафиксирована в GitHub.
