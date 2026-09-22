@@ -1,50 +1,156 @@
-# Evidence Base
+# Доказательная база AI Quit Smoking
 
-**Version:** 0.1  
-**Reviewed:** 2026-09-23
+**Версия:** 0.2  
+**Дата проверки:** 2026-09-23
 
-## WHO
+## 1. ВОЗ — клиническое руководство 2024
 
-The WHO clinical treatment guideline for tobacco cessation in adults was published 2 July 2024. It provides evidence-based recommendations for behavioral interventions and pharmacological treatments.
+ВОЗ опубликовала клиническое руководство по лечению табачной зависимости у взрослых 2 июля 2024 года.
 
-Reference:
+Руководство охватывает поведенческие и фармакологические вмешательства и рекомендует, среди прочего, никотинзаместительную терапию, варениклин, бупропион и цитизин.
+
+Источник:
 https://www.who.int/publications/i/item/9789240096431
 
-## NICE NG209
+## 2. NICE NG209
 
-NICE guideline NG209 was last updated 4 February 2025. For adults, it lists behavioral support and medicinally licensed options including cytisinicline, nicotine replacement therapy (NRT), varenicline, and bupropion.
+NICE NG209 опубликована 30 ноября 2021 года и последнее доступное обновление на сегодня датировано 4 февраля 2025 года.
 
-NICE also states that a combination of short-acting and long-acting NRT, when combined with behavioral support, is among the options more likely to result in successful cessation.
+Для взрослых руководство рассматривает:
 
-References:
+- поведенческую поддержку;
+- цитизиниклин;
+- НЗТ;
+- варениклин;
+- бупропион;
+- никотиновые электронные сигареты;
+- другие форматы поддержки.
+
+NICE отдельно указывает, что комбинация короткодействующей и длительно действующей НЗТ вместе с поведенческой поддержкой относится к вариантам, с которыми вероятность успешного отказа выше.
+
+Источник:
 https://www.nice.org.uk/guidance/NG209
+
+Подробный раздел:
 https://www.nice.org.uk/guidance/NG209/chapter/treating-tobacco-dependence
 
-## Cochrane
+## 3. Варениклин и цитизин
 
-The 2023 Cochrane review on nicotine receptor partial agonists concluded that varenicline and cytisine help more people quit than placebo or no medication. Varenicline was more effective than bupropion or a single form of NRT and may be as or more effective than dual-form NRT.
+Кокрейновский систематический обзор 2023 года включал исследования варениклина и цитизина.
 
-Reference:
+Для варениклина вероятность отказа как минимум на 6 месяцев была выше, чем при плацебо, бупропионе и одной форме НЗТ. В сравнении с двойной НЗТ явного преимущества не установлено.
+
+Цитизин, вероятно, помогает большему числу людей отказаться от курения по сравнению с плацебо; прямые сравнения с варениклином дают неопределённость между вариантами.
+
+Источник:
 https://www.cochrane.org/evidence/CD006103_can-medications-varenicline-and-cytisine-nicotine-receptor-partial-agonists-help-people-stop-smoking
 
-## Cough and respiratory symptoms
+## 4. НЗТ
 
-Smoking is one possible cause of cough, but cough has many causes.
+Кокрейновский обзор 2023 года включил 68 завершённых исследований и 43 327 участников.
 
-NHS guidance recommends medical assessment for a cough lasting more than 3 weeks and urgent assessment for significant breathing difficulty, chest pain, coughing blood, or rapidly worsening symptoms.
+Данные высокой уверенности показывают преимущество комбинации НЗТ над одной формой НЗТ; для жевательной резинки 4 мг были данные в пользу большей эффективности по сравнению с 2 мг. Также имеются данные умеренной уверенности, что начало НЗТ до даты отказа может быть полезнее, чем начало только в день отказа.
 
-References:
-https://www.nhs.uk/symptoms/cough/
-https://www.nhs.uk/symptoms/coughing-up-blood/
+Источник:
+https://www.cochrane.org/evidence/CD013308_what-best-way-use-nicotine-replacement-therapy-quit-smoking
 
-## Interpretation rule
+## 5. Поведенческая поддержка
 
-This repository separates:
+Кокрейновский обзор 2021 года объединил 33 обзора и включил в сетевой метаанализ 312 рандомизированных исследований, 250 563 участников и 845 вариантов исследовательских вмешательств.
 
-- **FACT** — directly supported by a cited guideline, systematic review, or other reliable source.
-- **ASSUMPTION** — a design assumption used by the product team.
-- **HYPOTHESIS** — a claim that must be tested.
-- **PROTOCOL** — the current operational design.
-- **EXPERIMENT** — a planned test of a hypothesis.
+Доказательства высокой уверенности были получены для консультирования и гарантированных финансовых стимулов. Для текстовых сообщений доказательства были умеренной уверенности; для индивидуальной адаптации и отдельных мотивационных компонентов — менее определёнными.
 
-AI-specific mechanisms must not be described as clinically proven unless there is direct evidence for that mechanism.
+Источник:
+https://www.cochrane.org/ru/evidence/CD013229_does-behavioural-support-help-people-stop-smoking
+
+## 6. Телефонная поддержка
+
+Кокрейновский обзор телефонного консультирования обнаружил пользу дополнительных звонков и особенно отмечал тенденцию в пользу нескольких контактов против одного.
+
+Источник:
+https://www.cochrane.org/ru/evidence/CD002850_does-telephone-counselling-help-people-stop-smoking
+
+## 7. Мобильные сообщения
+
+Кокрейновский обзор 2019 года включил 26 рандомизированных исследований и более 33 000 участников. Текстовые программы повышали показатели отказа примерно на 50–60% относительно минимальной поддержки или как дополнение к другим методам. Для приложений смартфонов на тот момент данных было недостаточно.
+
+Источник:
+https://www.cochrane.org/ru/evidence/CD006611_can-programmes-delivered-mobile-phones-help-people-stop-smoking
+
+## 8. Интернет-вмешательства
+
+Кокрейновский обзор обнаружил, что интерактивные и адаптированные к индивидуальным ответам интернет-программы могут повышать показатели отказа относительно обычной помощи или письменной самопомощи. Однако качество доказательств различалось.
+
+Источник:
+https://www.cochrane.org/evidence/CD007078_can-internet-based-interventions-help-people-stop-smoking
+
+## 9. Финансовые стимулы
+
+Обновление Cochrane 2025 года включало 48 исследований и более 21 900 участников.
+
+В смешанных популяциях финансовые стимулы повышали вероятность отказа при длительном наблюдении; итоговая оценка имела высокую уверенность.
+
+Источник:
+https://www.cochrane.org/evidence/CD004307_can-rewards-help-people-quit-smoking-and-do-they-work-long-term
+
+## 10. Постепенное и резкое прекращение
+
+Кокрейновский обзор постепенного снижения до отказа включал 51 исследование и более 22 000 участников.
+
+При прямом сравнении постепенного снижения и резкого отказа не было найдено убедительного общего превосходства одного подхода над другим.
+
+Отдельное рандомизированное исследование 697 взрослых показало более высокий показатель длительной абстиненции при резком отказе на 6-месячной точке, чем при постепенном сокращении. Это исследование нельзя превращать в универсальное правило; совокупность данных шире одного испытания.
+
+Источники:
+https://www.cochrane.org/evidence/CD013183_can-people-stop-smoking-cutting-down-amount-they-smoke-first
+https://pubmed.ncbi.nlm.nih.gov/26975007/
+
+## 11. Электронные сигареты — актуальная версия 2026
+
+Последнее найденное обновление живого систематического обзора Cochrane опубликовано 26 августа 2026 года и учитывает доказательства до 1 января 2026 года.
+
+В него вошло 90 завершённых исследований, 29 044 участника; 49 исследований были РКИ.
+
+При сравнении с НЗТ никотиновые электронные сигареты повышали вероятность отказа от курения: RR 1,59; 95% ДИ 1,30–1,93; высокая уверенность. В абсолютном выражении авторы оценили возможную разницу примерно в 4 дополнительных отказавшихся на 100 человек.
+
+При этом долгосрочная безопасность требует дальнейшего наблюдения; обзор является living systematic review и обновляется по мере появления новой информации.
+
+Источник:
+https://www.cochrane.org/evidence/CD010216_can-electronic-cigarettes-help-people-stop-smoking-and-do-they-have-any-unwanted-effects-when-used
+
+## 12. Осознанность
+
+Кокрейновский обзор 2022 года не обнаружил ясного преимущества mindfulness-подходов по увеличению числа бросивших курить; уверенность в доказательствах была низкой или очень низкой.
+
+Источник:
+https://www.cochrane.org/evidence/CD013696_can-mindfulness-help-people-stop-smoking
+
+## 13. Врачебный совет
+
+Кокрейновский обзор 2022 года показал небольшой эффект даже от краткого совета врача по сравнению с отсутствием совета или обычной помощью.
+
+Источник:
+https://www.cochrane.org/evidence/CD000165_does-advice-doctors-encourage-people-who-smoke-quit
+
+## 14. Что следует из всей базы
+
+Нельзя свести проблему к одному «лучшему трюку».
+
+Более устойчивый общий вывод:
+
+**ПОВЕДЕНЧЕСКАЯ ПОДДЕРЖКА + ПОДХОДЯЩАЯ ФАРМАКОТЕРАПИЯ + ПОСЛЕДУЮЩЕЕ СОПРОВОЖДЕНИЕ**
+
+являются центральной частью доказательной модели.
+
+AI в нашем проекте должен рассматриваться как инфраструктурный слой поддержки, а не как доказанная замена лечению.
+
+## 15. Правило интерпретации
+
+Каждый вывод маркируется:
+
+**FACT** — напрямую подтверждается источником.  
+**EVIDENCE INTERPRETATION** — наша аккуратная интерпретация нескольких источников.  
+**ASSUMPTION** — рабочее предположение.  
+**HYPOTHESIS** — то, что программа должна проверить.  
+**PROTOCOL** — текущая версия операционного метода.
+
