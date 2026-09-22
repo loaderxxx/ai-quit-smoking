@@ -1,63 +1,94 @@
-# AI Quit Smoking
+# AI Quit Smoking 🚭
 
-**AI-assisted smoking cessation program**
+## Лёгкий способ бросить курить с поддержкой AI
 
-A public, evidence-oriented project exploring how AI can help people stop smoking through structured behavioral support, real-time craving support, personalized planning, progress tracking, and evidence-based treatment options.
+**AI Quit Smoking** — открытая исследовательско-практическая программа о том, как использовать доказательные методы отказа от курения вместе с AI-поддержкой в реальных жизненных ситуациях.
 
-> **Important:** This repository is educational and experimental. It is not a substitute for a clinician. Medication choices, contraindications, interactions, and diagnosis require appropriate professional assessment.
+Это **живая публичная программа**: исследование, личный опыт, эксперименты, ошибки, выводы и новые версии метода фиксируются прямо по мере работы.
 
-## Core idea
+> **Важно:** проект носит образовательный и экспериментальный характер и не заменяет врача. Диагностика, назначение лекарств, проверка противопоказаний и лечение требуют соответствующей медицинской оценки.
 
-The program combines two layers:
+## Главная идея
 
-1. **Evidence-based cessation methods** — behavioral support and established pharmacological options.
-2. **AI support layer** — a conversational assistant that helps a person apply the plan in real situations, especially at the moment of craving.
+Программа объединяет два слоя:
 
-The AI layer is not presented as a medical treatment by itself. Its role is to make proven cessation support easier to access, personalize, and follow.
+1. **Доказательные методы отказа от курения** — поведенческая поддержка и проверенные фармакологические варианты для подходящих людей.
+2. **AI-слой** — разговорная поддержка, которая помогает человеку применять выбранный план именно в тот момент, когда возникает тяга, а также помогает анализировать триггеры, прогресс и срывы.
 
-## Initial protocol
+AI не объявляется самостоятельным медицинским лечением. Его задача — сделать поддержку более доступной, персонализированной и непрерывной.
 
-**DAY 1 → 0 cigarettes → baseline → choose strategy → support every craving → review → adapt**
+## Рабочая формула
 
-A first implementation can:
+**НАМЕРЕНИЕ → ПЛАН → ПЕРВАЯ ТЯГА → AI-ПОДДЕРЖКА → ДЕЙСТВИЕ → РЕЗУЛЬТАТ → АНАЛИЗ → НОВАЯ ВЕРСИЯ**
 
-- establish a quit date;
-- capture baseline smoking behavior and nicotine dependence;
-- identify triggers and routines;
-- provide a short craving-response protocol;
-- support relapse prevention;
-- track cigarettes, cravings, triggers, and lapses;
-- help a user prepare questions for a clinician or pharmacist.
+## С чего начать
 
-## Evidence base
+- [Канонический алгоритм публичной программы](PUBLIC_PROGRAM_OPERATING_ALGORITHM_v1.0.md)
+- [Живой публичный журнал](LIVE_JOURNAL.md)
+- [Модель программы](docs/PROGRAM.md)
+- [Глубокое исследование методов](research/DEEP_RESEARCH_2026-09-23.md)
+- [Протокол Day 1](protocol/DAY1.md)
+- [Безопасность AI](docs/AI_SAFETY.md)
+- [Публичность и приватность](PUBLIC_SAFETY.md)
+- [Приглашение для друзей](OUTREACH/INVITE_FRIENDS_RU.md)
 
-Current clinical guidance supports behavioral interventions combined with evidence-based cessation medicines. WHO's 2024 guideline includes behavioral support and pharmacological treatments such as nicotine replacement therapy (NRT), varenicline, bupropion, and cytisine/cytisinicline. NICE NG209, last updated 4 February 2025, likewise recommends behavioral support and lists cytisinicline, NRT, varenicline, and bupropion among adult options.
+## Day 1
 
-Sources:
+Базовая рабочая гипотеза:
 
-- WHO — *WHO clinical treatment guideline for tobacco cessation in adults* (2024)
-- NICE NG209 — *Tobacco: preventing uptake, promoting quitting and treating dependence* (updated 2025)
-- Cochrane — *Nicotine receptor partial agonists for smoking cessation* (2023)
+**24.09.2026 → 0 сигарет → поддержка каждой существенной тяги → вечерний разбор.**
 
-## Safety
+Мы не предполагаем, что существует одна волшебная техника. Мы исследуем сочетание методов и подбираем стратегию по человеку и ситуации.
 
-This project must not:
+## Доказательная база
 
-- diagnose disease;
-- prescribe medication automatically;
-- invent a dosage;
-- replace emergency or clinical care;
-- expose private user health data;
-- present experimental AI behavior as established medical evidence.
+ВОЗ в клиническом руководстве 2024 года рекомендует сочетание поведенческой поддержки и фармакологических средств для прекращения употребления табака; среди фармакологических вариантов названы НЗТ, варениклин, бупропион и цитизин.
 
-For persistent cough, coughing blood, chest pain, or breathing difficulty, appropriate medical evaluation is important.
+NICE NG209, последнее обновление 4 февраля 2025 года, также рекомендует поведенческую поддержку и рассматривает цитизиниклин, НЗТ, варениклин и бупропион; отдельное внимание уделяется комбинации короткой и длительной НЗТ.
 
-## Project status
+Кокрейн в обновлении 2026 года по электронным сигаретам сообщает о более высокой вероятности длительного отказа от курения при использовании никотиновых электронных сигарет по сравнению с НЗТ, но подчёркивает ограничения доказательной базы и необходимость более длительных исследований безопасности.
 
-**v0.1 — Public research and protocol skeleton**
+## Публичная программа
 
-The next iterations will turn the protocol into a testable, measurable AI-assisted program.
+Мы ведём программу по принципу:
 
-## License
+**REQUEST → CONTEXT → ROUTE → ANALYZE → PLAN → EXECUTE → VERIFY → REPORT → CAPTURE → NEXT**
 
-License to be selected after the public contribution and IP model are finalized.
+Главный принцип:
+
+> **Работа не исчезает в диалоге. Значимый результат превращается в публичный артефакт.**
+
+В репозитории будут последовательно появляться:
+
+- исследования;
+- таблицы доказательств;
+- версии метода;
+- протоколы;
+- журналы реальных попыток;
+- эксперименты;
+- ошибки и исправления;
+- результаты;
+- открытые вопросы;
+- публичный контент;
+- предложения по улучшению программы.
+
+## Безопасность
+
+Публичность не означает публикацию личной жизни.
+
+Не публикуются автоматически:
+
+- пароли и ключи;
+- внутренние системные промпты;
+- закрытая AI-оркестрация;
+- proprietary core;
+- идентифицирующие данные участников;
+- индивидуальные медицинские сведения.
+
+## Статус
+
+**v0.2 — PUBLIC LIVE RESEARCH**
+
+Дата запуска публичного этапа: **23 сентября 2026 года**.
+
+Плановый старт Day 1: **24 сентября 2026 года**.
